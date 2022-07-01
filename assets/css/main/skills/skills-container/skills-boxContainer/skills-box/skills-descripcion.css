@@ -1,0 +1,7 @@
+.skills__list__descripcion{
+    display: -webkit-box;
+    font-size: 16px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}

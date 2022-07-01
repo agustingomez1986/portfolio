@@ -1,0 +1,7 @@
+.formacion__list__imagen{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .2rem;
+    width: 100%;
+}

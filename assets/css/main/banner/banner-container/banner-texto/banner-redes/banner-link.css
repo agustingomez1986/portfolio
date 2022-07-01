@@ -1,0 +1,30 @@
+.banner__redes__link{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.banner__redes__link--github{
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.banner__redes__link--linkedin{
+    border-bottom: 2px solid rgb(0, 119, 183);
+    color: rgb(0, 119, 183);
+}
+
+.banner__redes__link--alura{
+    border-bottom: 2px solid rgb(10, 56, 113);
+    color: rgb(10, 56, 113);
+}
+
+.banner__redes__link--curriculo{
+    border-bottom: 2px solid rgb(175, 15, 0);
+    color: rgb(175, 15, 0);
+}
+
+@media (min-width: 768px){
+    .banner__redes__link--github, .banner__redes__link--linkedin, .banner__redes__link--alura, .banner__redes__link--curriculo{
+        border-bottom: none;
+    }
+}

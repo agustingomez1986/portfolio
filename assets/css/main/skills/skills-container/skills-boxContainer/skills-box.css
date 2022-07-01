@@ -1,0 +1,26 @@
+.skills__box{
+    border: 3px solid rgb(255, 201, 14);
+    border-radius: 1rem;
+    height: 100px;
+    margin: 1%;
+    padding: .5rem;
+    width: 48%;
+}
+
+@media (min-width: 425px){
+    .skills__box{
+        border-width: 4px;
+        height: 150px;
+        margin: 2%;
+        padding: 1rem;
+        width: 250px;
+    }
+}
+
+@media (min-width: 768px){
+    .skills__box{
+        height: 200px;
+        margin: 3%;
+        padding: 1.5rem;
+    }
+}

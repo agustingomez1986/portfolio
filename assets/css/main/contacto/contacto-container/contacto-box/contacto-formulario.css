@@ -1,0 +1,11 @@
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (min-width: 425px){
+    .contacto__formulario{
+        width: 50%;
+    }
+}

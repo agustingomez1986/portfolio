@@ -1,0 +1,23 @@
+.hobbies__box{
+    border-radius: 1rem;
+    border: 4px solid rgb(255, 201, 14);
+    height: 70px;
+    margin: 0.5%;
+    padding: .75rem;
+    width: 110px;
+}
+
+@media (min-width: 425px){
+    .hobbies__box{
+        height: 80px;
+        padding: .75rem;
+        width: 140px;
+    }
+}
+
+@media (min-width: 768px){
+    .hobbies__box{
+        height: 100px;
+        padding: 1.25rem;
+    }
+}

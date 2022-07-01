@@ -1,0 +1,26 @@
+.proyectos__texto__botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.proyectos__botones{
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    height: 50px;
+    justify-content: center;
+    margin: 0;
+    width: 50px;
+}
+
+.proyectos__botones--repositorio{
+    background-color: white;
+    border: 1px solid #aa5555;
+    color: #aa5555;
+}
+
+.proyectos__botones--demo{
+    background: #aa5555;
+    color: white;
+}
+

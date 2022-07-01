@@ -1,0 +1,22 @@
+.banner__avatar{
+    background: url("../../../../img/1.jpg") top /cover no-repeat;
+    border-radius: 50%;
+    height: 150px;
+    order: -1;
+    width: 150px;
+}
+
+@media (min-width: 425px){
+    .banner__avatar{
+        min-height: 200px;
+        min-width: 200px;
+        order: 1;
+    }
+}
+
+@media (min-width: 768px){
+    .banner__avatar{
+        min-height: 270px;
+        min-width: 270px;
+    }
+}

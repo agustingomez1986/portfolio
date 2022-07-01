@@ -1,0 +1,14 @@
+.proyectos__box{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.proyectos__box:last-child{
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px){
+    .proyectos__box{
+        display: flex;
+    }
+}

@@ -1,0 +1,9 @@
+.encabezado__titulo__principal{
+    font-size: 16px;
+}
+
+@media (min-width: 425px){
+    .encabezado__titulo__principal{
+        font-size: 24px;
+    }
+}

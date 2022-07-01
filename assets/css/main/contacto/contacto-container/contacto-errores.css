@@ -1,0 +1,8 @@
+.contacto__errores{
+    color: darkred;
+    font-size: 16px;
+    margin-top: .75rem;
+    right: 0;
+    text-align: end;
+    width: 100%;
+}

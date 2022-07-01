@@ -1,0 +1,22 @@
+.encabezado__container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+
+@media (min-width: 425px){
+    .encabezado__container{
+        flex-direction: row;
+        padding: .5rem 0;
+    }
+
+}
+
+@media (min-width: 768px){
+    .encabezado__container{
+        padding: 1rem 0;
+    }
+
+}

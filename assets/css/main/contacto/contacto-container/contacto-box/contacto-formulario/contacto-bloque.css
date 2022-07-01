@@ -1,0 +1,8 @@
+.contacto__formulario__bloque{
+    min-height: 3.5rem;
+    position: relative;
+}
+
+.contacto__formulario__bloque:hover{
+    color: blue;
+}

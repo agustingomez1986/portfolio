@@ -1,0 +1,18 @@
+.contacto__formulario__boton{
+    background-color: rgb(0, 110, 231);
+    border: none;
+    color: #eeeeee;
+    font-size: 18px;
+    height: 50px;
+    margin-top: .5rem;
+    transition-duration: .5s;
+}
+
+.contacto__formulario__boton:hover{
+    transform: scale(1.1);
+}
+
+.contacto__formulario__boton:disabled{
+    background-color: grey;
+    color: #444444;
+}

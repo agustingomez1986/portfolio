@@ -1,0 +1,12 @@
+.banner__container{
+    padding: 1rem 0;
+}
+
+@media (min-width: 425px){
+    .banner__container{
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem 0;
+    }
+}

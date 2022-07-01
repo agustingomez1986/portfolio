@@ -1,0 +1,15 @@
+.banner__redes{
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner__redes__curriculo{
+    display: none;
+}
+
+@media (min-width: 768px){
+    .banner__redes{
+        justify-content: left;
+    }
+}

@@ -1,0 +1,17 @@
+.hobbies__list__item{
+    align-items: center;
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+@media (min-width: 425px){
+    .hobbies__list__item{
+        margin-bottom: .5rem;
+    }
+}
+
+@media (min-width: 768px){
+    .hobbies__list__item{
+        margin-bottom: .75rem;
+    }
+}

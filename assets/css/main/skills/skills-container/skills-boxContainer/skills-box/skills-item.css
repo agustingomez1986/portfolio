@@ -1,0 +1,11 @@
+.skills__list__item{
+    align-items: center;
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+@media (min-width: 425px){
+    .skills__list__item{
+        margin-bottom: .7rem;
+    }
+}

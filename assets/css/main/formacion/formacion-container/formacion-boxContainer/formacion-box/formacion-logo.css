@@ -1,0 +1,5 @@
+.formacion__list__logo{
+    object-fit: contain;
+    max-height: 90%;
+    max-width: 90%;
+}
