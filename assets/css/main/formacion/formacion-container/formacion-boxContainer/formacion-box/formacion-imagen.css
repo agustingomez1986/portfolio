@@ -1,4 +1,5 @@
 .formacion__list__imagen{
+    align-items: center;
     background-color: white;
     display: flex;
     justify-content: center;
