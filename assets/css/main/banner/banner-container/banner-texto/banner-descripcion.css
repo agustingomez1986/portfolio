@@ -1,9 +1,0 @@
-.banner__descripcion{
-    font-size: 16px;
-}
-
-@media (min-width: 768px){
-    .banner__descripcion{
-        font-size: 20px;
-    }
-}

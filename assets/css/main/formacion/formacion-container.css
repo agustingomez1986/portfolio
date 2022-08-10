@@ -1,5 +1,0 @@
-.formacion__container{
-    grid-template-areas: "formacion";
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-}

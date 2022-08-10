@@ -1,0 +1,27 @@
+.sobreMi__container {
+   position: relative;
+   width: 95%;
+}
+
+.sobreMi__bio {
+   font-size: 14px;
+   text-align: justify;
+   width: 100%;
+}
+
+@media (min-width: 425px) {
+   .sobreMi__container {
+      width: 90%;
+   }
+}
+
+@media (min-width: 768px) {
+   .sobreMi__container {
+      right: calc((75% - 60%) / 2);
+      width: 60%;
+   }
+
+   .sobreMi__bio {
+      font-size: 16px;
+   }
+}

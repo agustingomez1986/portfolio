@@ -1,9 +1,0 @@
-.menu__lista__link{
-    color: #333333;
-    padding: .5rem .75vw;
-}
-
-.menu__lista__link:hover{
-    border-bottom: 2px solid #f7de00;
-    font-weight: bold;
-}

@@ -1,0 +1,59 @@
+.formacion__container{
+   grid-template-areas: "formacion";
+   grid-template-columns: 100%;
+   grid-template-rows: auto;
+}
+.formacion__boxContainer{
+   display: block;
+   grid-area: formacion;
+   grid-template-columns: 33% 33% 33%;
+   grid-template-rows: auto;
+   justify-content: space-between;
+}
+.formacion__box{
+   display: grid;
+   grid-template-areas: "areaImagen" "areaSitio" "areaEscuela";
+   grid-template-columns: 100%;
+   grid-template-rows: 150px auto auto;
+   margin-bottom: 1.5rem;
+}
+.formacion__box:last-child{
+   margin-bottom: 0;
+}
+.formacion__list__curso__comentario{
+   font-size: 14px;
+}
+.formacion__list__curso{
+   font-size: 16px;
+   font-weight: bold;
+   margin-bottom: .2rem;
+}
+.formacion__list__escuela{
+   font-size: 12px;
+}
+.formacion__list__imagen{
+   align-items: center;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   margin-bottom: .2rem;
+   width: 100%;
+}
+.formacion__list__logo{
+   object-fit: contain;
+   max-height: 90%;
+   max-width: 90%;
+}
+
+@media (min-width: 425px){
+   .formacion__boxContainer{
+       display: grid;
+       gap: .5rem;
+   }
+}
+
+@media (min-width: 768px){
+   .formacion__boxContainer{
+       gap: .75rem;
+   }
+}

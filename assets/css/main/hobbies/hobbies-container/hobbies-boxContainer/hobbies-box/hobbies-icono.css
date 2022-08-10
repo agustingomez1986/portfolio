@@ -1,9 +1,0 @@
-.hobbies__list__icono{
-    max-height: 20px;
-}
-
-@media (min-width: 425px){
-    .hobbies__list__icono{
-        max-height: 30px;;
-    }
-}

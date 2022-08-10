@@ -1,9 +1,0 @@
-.hobbies__list__nombre{
-    font-size: 14px;
-}
-
-@media (min-width: 768px){
-    .hobbies__list__nombre{
-        font-size: 15px;
-    }
-}

@@ -1,9 +1,0 @@
-.skills__list__icono{
-    height: 20px;
-}
-
-@media (min-width: 425px){
-    .skills__list__icono{
-        height: 30px;
-    }
-}
