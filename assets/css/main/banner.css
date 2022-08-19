@@ -19,9 +19,6 @@
     display: flex;
     justify-content: space-between;
 }
-#banner__redes__curriculo{
-    display: none;
-}
 .banner__titulo{
     font-size: 22px;
 }
