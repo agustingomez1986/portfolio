@@ -47,7 +47,7 @@
       height: 150px;
       margin: 2%;
       padding: 1rem;
-      width: 250px;
+      width: 200px;
    }
 
    .skills__list__icono {
@@ -69,9 +69,9 @@
 
 @media (min-width: 768px) {
    .skills__box {
-      height: 200px;
-      margin: 3%;
-      padding: 1.5rem;
+      height: 160px;
+      margin: 2.5%;
+      padding: 1.25rem;
    }
 
    .skills__list__nombre {
