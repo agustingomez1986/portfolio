@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", ()=>{
         html2pdf()
             .set({
                 filename: 'Agustin_Gomez_Portfolio.pdf',
-                image: {type: 'jpeg', quality: 1},
+                image: {type: 'jpeg', quality: 0.95},
                 html2canvas: {scale: 1.4, letterRendering: true},
-                jsPDF: {unit: 'px', format: [1200, 4790], orientation: 'portrait'}
+                jsPDF: {unit: 'px', format: [1400, 4350], orientation: 'portrait'}
             })
             .from($elementoParaConvertir)
             .save()
