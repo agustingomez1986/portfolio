@@ -9,7 +9,8 @@ botonEnviar.addEventListener("click", function(event){
         mostrarErrores(errores);
         return;
     } else {
-        alert("La página está en proceso de creación, por lo que NO se envió la información. Para contactarte conmigo podés hacerlo por mail. Muchas gracias");
+        alert("Enviando");
+        // alert("La página está en proceso de creación, por lo que NO se envió la información. Para contactarte conmigo podés hacerlo por mail. Muchas gracias");
     }
 
     formulario.reset();
