@@ -373,9 +373,12 @@
                 <p class="contacto__texto">Si quieres contactarme podés hacerlo completando el formulario y a la brevedad te responderé.</p>
                 <div class="contacto__box">
                     <img class="contacto__banner" src="./assets/img/contacto.png" alt="Banner contacto">
-                    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>"
+                    <form action="https://formsubmit.co/agustingomez1986@hotmail.com"
                         method="post" class="contacto__formulario" id="contacto__formulario">
-                        <div class="contacto__formulario__bloque">
+                        <input class="contacto__formulario__input" type="text" name="nombre" placeholder="Nombre" id="contacto__nombre">
+                        <textarea class="contacto__formulario__textarea" rows="5" id="contacto__mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+
+                        <!-- <div class="contacto__formulario__bloque">
                             <input class="contacto__formulario__input" type="text" name="nombre" placeholder="Nombre" id="contacto__nombre">
                             <label class="contacto__formulario__etiqueta" for="contacto__nombre">Nombre</label>
                         </div>
@@ -389,8 +392,8 @@
                         </div>
                         <div>
                             <textarea class="contacto__formulario__textarea" rows="5" id="contacto__mensaje" name="mensaje" placeholder="Mensaje"></textarea>
-                        </div>
-                        <button type="submit" id="contacto__formulario__boton" class="contacto__formulario__boton" disabled>Enviar mail BACK</button>
+                        </div> -->
+                        <button type="submit" id="contacto__formulario__boton" class="contacto__formulario__boton" disabled>Enviar mail FORMSUBMIT</button>
                     </form>
                 </div>
                 <ul class="contacto__errores" id="contacto__errores"></ul>
