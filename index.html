@@ -373,12 +373,8 @@
                 <p class="contacto__texto">Si quieres contactarme podés hacerlo completando el formulario y a la brevedad te responderé.</p>
                 <div class="contacto__box">
                     <img class="contacto__banner" src="./assets/img/contacto.png" alt="Banner contacto">
-                    <form action="enviar.php" method="post"
-                         class="contacto__formulario" id="contacto__formulario">
-                        <input type="text" name="nombre" placeholder="Nombre" id="contacto__nombre">
-                        <textarea rows="5" id="contacto__mensaje" name="mensaje" placeholder="Mensaje"></textarea>
-
-                        <!-- <div class="contacto__formulario__bloque">
+                    <form class="contacto__formulario" id="contacto__formulario">
+                        <div class="contacto__formulario__bloque">
                             <input class="contacto__formulario__input" type="text" name="nombre" placeholder="Nombre" id="contacto__nombre">
                             <label class="contacto__formulario__etiqueta" for="contacto__nombre">Nombre</label>
                         </div>
@@ -392,14 +388,11 @@
                         </div>
                         <div>
                             <textarea class="contacto__formulario__textarea" rows="5" id="contacto__mensaje" name="mensaje" placeholder="Mensaje"></textarea>
-                        </div> -->
-                        <button type="submit" id="contacto__formulario__boton" class="contacto__formulario__boton" >Enviar mail jyg</button>
+                        </div>
+                        <button type="submit" id="contacto__formulario__boton" class="contacto__formulario__boton" >Enviar mensaje</button>
                     </form>
                 </div>
                 <ul class="contacto__errores" id="contacto__errores"></ul>
-                
-                
-                
             </div>
         </section>
     </main>    
@@ -422,8 +415,8 @@
         
     </footer>
 
-    <!-- <script src="assets/js/boton-enviar.js"></script> -->
-    <!-- <script src="assets/js/boton-habilitar.js"></script> -->
+    <script src="assets/js/boton-enviar.js"></script>
+    <script src="assets/js/boton-habilitar.js"></script>
     <script src="assets/js/convertir-pdf.js"></script>
 
 </body>
