@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Agustín Gomez</title>
+
+    <!-- REFERENCIAS DE LAS HOJAS DE ESTILO CSS -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    
+    <!-- FUENTE RELAWAY -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <header>
+        <div class="cabeceraAvatar"></div>
+        <h2 class="cabeceraNombre">Agustín Gomez</h2>
+        <h1 class="cabeceraTitulo">
+            Programador Junior
+            <span class="cabeceraTituloStack">Python Javascript Java SQL</span>
+        </h1>
+    </header>
+    <main>
+        <section class="perfil-t">
+            <h3>Mi Perfil T</h3>
+            <div class="perfilGrafico">
+                <div class="graficoBarra">
+                    <div class="barraValor" style="height: 80%"></div>
+                    <span>Python</span>
+                </div>
+                <div class="graficoBarra">
+                    <div class="barraValor" style="height: 40%"></div>
+                    <span>JS</span>
+                </div>
+                <div class="graficoBarra">
+                    <div class="barraValor" style="height: 35%"></div>
+                    <span>Java</span>
+                </div>
+                <div class="graficoBarra">
+                    <div class="barraValor" style="height: 10%"></div>
+                    <span>SQL</span>
+                </div>
+                <div class="graficoBarra">
+                    <div class="barraValor" style="height: 5%"></div>
+                    <span>Docker</span>
+                </div>
+            </div>
+        </section>
+        <section class="soft-skills">
+            <h3>Soft skills</h3>
+            <ul class="skillsList">
+                <li class="skills">
+                    <img src="assets/img/liderazgo_icon.png" alt="icono liderazgo" class="skillsIcon">
+                    <h4 class="skillsTitle">Liderazgo</h4>
+                </li>
+                <li class="skills">
+                    <img src="assets/img/equipo_icon.png" alt="icono equipo de trabajo" class="skillsIcon">
+                    <h4 class="skillsTitle">Equipos de trabajo</h4>
+                </li>
+                <li class="skills">
+                    <img src="assets/img/calidad_icon.png" alt="icono gestion de calidad" class="skillsIcon">
+                    <h4 class="skillsTitle">Gestion de calidad</h4>
+                </li>
+            </ul>
+        </section>
+        <section class="sobreMi">
+            <h3>Sobre Mi</h3>
+            <div class="sobreMiTextoContainer">
+                <p class="sobreMiTexto">Siempre he llevado tranquilidad a mis empleadores por mi capacidad analítica y responsabilidad.</p>
+                <p class="sobreMiTexto">He sido líder y logrado cumplir con los objetivos planteados, manteniendo además un ambiente laboral cálido, trabajo en equipo y compañerismo.</p>
+                <p class="sobreMiTexto">Tengo una personalidad proactiva, siempre intento dar un poco más de lo que me piden.</p>
+                <p class="sobreMiTexto">Me destaco por ser muy hábil adaptándome a nuevas situaciones y contextos.</p>
+                <p class="sobreMiTexto">Tengo <span id="edad"></span> años. Vivo con mi familia en Lago Puelo, Chubut, Argentina.</p>
+            </div>
+        </section>
+    </main>
+    <script>
+        const nacimiento = new Date(1986, 6, 3); // 3 julio 1986
+        const hoy = new Date();
+
+        const msPorAño = 1000 * 60 * 60 * 24 * 365.25;
+        const edad = Math.floor((hoy - nacimiento) / msPorAño);
+
+        document.getElementById("edad").textContent = edad;
+    </script>
+</body>
+</html>

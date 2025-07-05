@@ -1,0 +1,33 @@
+.cabeceraAvatar {
+    background: url("../img/avatar.jpg") top /cover no-repeat;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    min-width: 150px;
+    min-height: 150px;
+
+    @media (min-width: 425px) {
+        height: 100px;
+        width: 100px;
+        min-height: 100px;
+        min-width: 100px;
+    }
+}
+
+.cabeceraNombre {
+    margin-bottom: 2em;
+
+    @media (min-width: 425px) {
+        margin-bottom: 0;
+    }
+}
+
+.cabeceraTitulo {
+    text-align: center;
+}
+
+.cabeceraTituloStack {
+    display: block;
+    margin-top: 0.2em;
+    font-size: 0.6em;
+}
