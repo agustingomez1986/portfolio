@@ -1,3 +1,21 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+
+    @media (min-width: 425px) {
+        flex-direction: row;
+        justify-content: space-around;
+
+        @media (min-width: 768px) {
+            justify-content: flex-start;
+            gap: 40px;
+        }
+    }
+}
+
 .cabeceraAvatar {
     background: url("../img/avatar.jpg") top /cover no-repeat;
     border-radius: 50%;
