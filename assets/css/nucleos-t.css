@@ -1,0 +1,22 @@
+.info {
+  display:none;
+}
+
+.nucleos-container {
+  display: none;
+  flex-direction: column;
+  gap: 2.5em;
+}
+
+.nucleo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ramas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

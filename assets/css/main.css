@@ -1,8 +1,10 @@
 main {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 80px;
   padding: 1em;
+  z-index: 1;
 
   @media (min-width: 425px) {
     flex-direction: row;
@@ -48,6 +50,15 @@ main {
   margin-top: 0.5em;
   font-size: 0.9em;
   color: #d4d4d4;
+}
+
+.toggle-info {
+  color: #ff7f00;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-top: 4px;
+  font-size: 2em;
 }
 
 .soft-skills {
