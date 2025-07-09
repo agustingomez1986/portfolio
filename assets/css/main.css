@@ -35,8 +35,9 @@ main {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  width: 25px;
+  width: 50px;
   height: 100%;
+  padding: 12px;
 }
 
 .barraValor {

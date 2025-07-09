@@ -22,12 +22,6 @@ h4 {
 }
 
 h5 {
-    background-color: #ff7f00;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    z-index: 1;
+    text-align: left;
+    margin: 5px 0;
 }

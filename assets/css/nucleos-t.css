@@ -5,18 +5,27 @@
 .nucleos-container {
   display: none;
   flex-direction: column;
-  gap: 2.5em;
+  gap: 1.5em;
+  padding: 1em;
+  
 }
 
-.nucleo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+.fondo-container-activo {
+  background-image: linear-gradient(to top, #ff7f00 0%, transparent 20%);
+}
+
+.fondo-activo {
+  background-image: linear-gradient(to bottom, #ff7f00, transparent);
+}
+
+.llave {
+  color: #4ec9b0;
 }
 
 .ramas {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  align-items: start;
+  gap: 5px;
+  margin-left: 1em;
 }
