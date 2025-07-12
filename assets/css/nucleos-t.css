@@ -1,5 +1,6 @@
 .info {
   display:none;
+  background-image: linear-gradient(to top, #ff7f00 0%, transparent 20%);
 }
 
 .nucleos-container {
@@ -7,11 +8,7 @@
   flex-direction: column;
   gap: 1.5em;
   padding: 1em;
-  
-}
-
-.fondo-container-activo {
-  background-image: linear-gradient(to top, #ff7f00 0%, transparent 20%);
+  border: 1.2px solid #ff7f00;
 }
 
 .fondo-activo {

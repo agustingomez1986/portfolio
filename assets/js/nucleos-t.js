@@ -4,39 +4,33 @@ document.addEventListener('DOMContentLoaded', () => {
   botones.forEach(btn => {
     btn.addEventListener('click', () => {
       const divTecnologia = btn.closest('.graficoBarra');
-      divTecnologia.classList.toggle('fondo-activo');
       const tecnologia = divTecnologia.querySelector('span')?.textContent.trim();
       const targetId = `info${tecnologia}`;
       const nucleo = document.getElementById(targetId);
-      
-      // Symbolo en botón
-      const boton = divTecnologia.querySelector('button');
-      if (boton.textContent === '+') {
-        boton.textContent = '-';
-      } else {
-        boton.textContent = '+';
-      }
-
-      document.querySelectorAll('.nucleos-container').forEach(container => {
-        container.classList.toggle('fondo-container-activo');
-      });
-      
-
 
       if (!nucleo) return;
 
-      // Oculto todos los bloques primero
-      document.querySelectorAll('.nucleos-container').forEach(n => {
-        if (n.id !== targetId) n.style.display = 'none';
+      const visible = nucleo.style.display === 'flex';
+      const sectionInfo = document.querySelector('.info');
+
+      // Ocultar todos los nucleos y resetear botones y fondo
+      document.querySelectorAll('.nucleos-container').forEach(n => n.style.display = 'none');
+      document.querySelectorAll('.graficoBarra').forEach(b => {
+        b.classList.remove('fondo-activo');
+        const boton = b.querySelector('button');
+        if (boton) boton.textContent = '+';
       });
 
-      // Alternar el que corresponde
-      const visible = nucleo.style.display === 'flex';
-      nucleo.style.display = visible ? 'none' : 'flex';
-
-      const sectionInfo = document.querySelector('.info');
-      const hayVisible = [...document.querySelectorAll('.nucleos-container')].some(n => n.style.display === 'flex');
-      sectionInfo.style.display = hayVisible ? 'block' : 'none';
+      if (!visible) {
+        // Mostrar el actual
+        nucleo.style.display = 'flex';
+        divTecnologia.classList.add('fondo-activo');
+        btn.textContent = '-';
+        sectionInfo.style.display = 'block';
+      } else {
+        // Ocultar todo si se vuelve a hacer click
+        sectionInfo.style.display = 'none';
+      }
     });
   });
 });
