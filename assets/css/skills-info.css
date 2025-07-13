@@ -1,0 +1,22 @@
+.skills-info > div {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+  padding: 1em;
+  gap: 0.8em;
+  border-bottom: 1px solid #ff7f00;
+  border-left: 1px solid #ff7f00;
+  border-right: 1px solid #ff7f00;
+}
+
+.skill-activo {
+  color: #ff7f00;
+}
+
+.borde-izquierdo {
+  border-left: 1px solid #ff7f00;
+}
+
+.borde-inferior {
+  border-bottom: 1px solid #ff7f00;
+}

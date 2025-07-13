@@ -2,7 +2,7 @@ main {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 150px;
   padding: 1em;
   z-index: 1;
 
@@ -10,13 +10,14 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 2em;
+    gap: 80px;
   }
 }
 
 .perfil-t {
   max-width: 400px;
   min-width: 300px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -24,7 +25,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  height: 250px;
+  height: 350px;
   padding: 5px 1em;
   border-bottom: 2px solid #555;
   position: relative;
@@ -65,7 +66,7 @@ main {
 .soft-skills {
   margin: auto;
   max-width: 400px;
-  min-width: 300px;
+  min-width: 350px;
   text-align: center;
 
   @media (min-width: 425px) {
@@ -77,9 +78,16 @@ main {
   padding: 20px;
 }
 
+.skill-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
 .skills {
   text-align: center;
-  margin-bottom: 30px;
 }
 
 .skillsIcon {
@@ -88,8 +96,20 @@ main {
   margin-bottom: 3px;
 }
 
+.skill-button {
+  color: #ff7f00;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 2em;
+  position: absolute;
+  right: 1.5em;
+  top: 50%;
+  transform:translateY(-50%);
+}
+
 .sobreMi{
-  margin: auto;
+  margin: 0 auto;
   max-width: 400px;
   text-align: center;
   min-width: 300px;

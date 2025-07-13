@@ -2,12 +2,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 150px 40px;
     gap: 20px;
 
     @media (min-width: 425px) {
         flex-direction: row;
         justify-content: space-around;
+        padding: 40px;
 
         @media (min-width: 768px) {
             justify-content: flex-start;
