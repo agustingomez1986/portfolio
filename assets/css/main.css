@@ -65,8 +65,8 @@ main {
 
 .soft-skills {
   margin: auto;
-  max-width: 400px;
-  min-width: 350px;
+  max-width: 380px;
+  min-width: 380px;
   text-align: center;
 
   @media (min-width: 425px) {
@@ -121,4 +121,14 @@ main {
 
 .sobreMiTexto {
   margin-bottom: 0.7em;
+}
+
+main .header-link {
+  display: block;
+  text-align: center;
+  margin: auto;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 }

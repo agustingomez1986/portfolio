@@ -5,6 +5,18 @@ body{
     position: relative;
 }
 
+header {
+    display: block;
+    padding: 150px 40px;
+
+    @media (min-width: 425px) {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 40px;
+    }
+}
+
 h1 {
     @media (min-width: 425px) {
         font-size: 1.5em;

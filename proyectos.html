@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio – Proyectos y Experiencia</title>
+  <link rel="stylesheet" href="assets/css/normalize.css"/>
+  <link rel="stylesheet" href="assets/css/reset.css"/>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+  <link rel="stylesheet" href="assets/css/header.css"/>
+  <link rel="stylesheet" href="assets/css/main.css"/>
+  <link rel="stylesheet" href="assets/css/footer.css"/>
+  <link rel="stylesheet" href="assets/css/proyectos.css"/>
+
+  <!-- FUENTE RELAWAY -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="cabeceraAvatar"></div>
+      <h2 class="cabeceraNombre">Agustín Gomez</h2>
+      <h1 class="cabeceraTitulo">
+        Programador Junior
+        <span class="cabeceraTituloStack">Python Javascript Java SQL</span>
+      </h1>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-proyecto">
+    <nav class="main-nav">
+      <a href="index.html">Volver al Inicio</a>
+    </nav>
+    <div class="tabs-container">
+        <!-- Pestañas -->
+        <div class="tabs">
+        <button class="tab-button active" data-tab="desarrollos">MIS DESARROLLOS</button>
+        <button class="tab-button" data-tab="experiencia">EXPERIENCIA LABORAL</button>
+        </div>
+
+        <section id="desarrollos" class="tab-content" style="display:flex;">
+        <!-- Django -->
+        <article class="proyecto">
+            <h3>Registro de Ventas
+                <a href="https://github.com/agustingomez1986/registro_ventas_django" target="_blank">
+                    <img src="assets/img/github_icon.png" alt="Repo Django"/>
+                </a>
+            </h3>
+            <h4>Sistema para registrar y gestionar ventas, desarrollado con Django y SQL.</h4>
+            <ul>Funcionalidades principales:
+                <li class="proyecto-li">Registro de ventas</li>
+                <li class="proyecto-li">Registro de usuarios con diferenciación de vistas según permisos</li>
+                <li class="proyecto-li">Perfil de cada usuario con posibilidad de modificación de datos</li>
+                <li class="proyecto-li">Revisión de historial de ventas</li>
+            </ul>
+            <img src="assets/img/registro_ventas.png" alt="Django proyecto 1"/>
+        </article>
+        <!-- FastAPI -->
+        <article class="proyecto">
+            <h3>Gestión de tareas
+                <a href="https://github.com/agustingomez1986/task_api_python" target="_blank">
+                    <img src="assets/img/github_icon.png" alt="Repo FastAPI"/>
+                </a>
+            </h3>
+            <h4>API RESTful desarrollada con FastAPI y SQLAlchemy.</h4>
+            <ul>Se aplicó:
+                <li class="proyecto-li">Autenticación JWT</li>
+                <li class="proyecto-li">Operaciones CRUD para usuarios y tareas</li>
+                <li class="proyecto-li">Validación de datos basada en esquemas.</li>
+                <li class="proyecto-li">Pruebas automatizadas con Pytest.</li>
+            </ul>
+        </article>
+        <!-- React -->
+        <article class="proyecto">
+            <h3>Pagina web para inmobiliaria
+                <a href="https://github.com/agustingomez1986/347inmobiliaria" target="_blank">
+                    <img src="assets/img/github_icon.png" alt="Repo React"/>
+                </a>
+            </h3>
+            <h4>Pagina desarrollada con React.</h4>
+            <ul>Se aplicó:
+                <li class="proyecto-li">Manejo de estado global con Context.</li>
+                <li class="proyecto-li">Styled Components,</li>
+            </ul>
+        </article>
+        <!-- JavaScript -->
+        <article class="proyecto">
+            <h3>E-Commerce
+                <a href="https://agustingomez1986.github.io/e-commerce-local-storage-/" target="_blank">
+                    <img src="assets/img/github_icon.png" alt="Repo JS"/>
+                </a>
+            </h3>
+            <p>Aplicación web con JavaScript.</p>
+            <img src="assets/img/e-commerce.png" alt="JS proyecto 1"/>
+            
+        </article>
+        </section>
+
+        <section id="experiencia" class="tab-content" style="display:none;">
+        <article class="experiencia-laboral">
+            <h3>Jefe de sector</h3>
+            <h4>Texcom – 2012 a 2022</h4>
+            <p>En esta empresa de exigentes marcos laborales, me destaqué principalmente por ser un buen analísta de datos y por mi compromiso con el trabajo. Gracias a ello logré alcanzar la jefatura del sector de Bondeado y Estampado digital, habiendo previamente cubierto jefaturas temporales de larga duración en sectores más grandes.<br>Medié con operarios, jefes y gerentes desarrollando la adecuada expresión oral y escrita para cada situación.<br>Realicé presupuestos anuales, planificación de compras de insumos y control de gastos. En el sector logramos un ambiente de trabajo en equipo, priorizando el compañerismo, respeto y calidad humana.</p>
+        </article>
+        </section>
+    </div>
+    
+  </main>
+
+  <!-- Footer idéntico al index -->
+  <footer class="footer">
+    <div class="footer-contenido">
+      <a href="mailto:agustingomez1986@hotmail.com" class="footer-icono" title="Enviar email">
+        <!-- svg email -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#ff7f00">
+          <path d="M12 13.065 2.4 6.6v11.1h19.2V6.6L12 13.065zM12 11.25l9.6-6.75H2.4L12 11.25z"/>
+        </svg>
+      </a>
+      <a href="https://wa.me/541165180404" class="footer-icono" target="_blank" title="WhatsApp">
+        <!-- svg whatsapp -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#ff7f00">
+          <path d="M20.52 3.48a11.83 11.83 0 0 0-16.7 0c-4.14 4.14-4.5 10.71-.9 15.3L2 22l3.27-.86a11.83 11.83 0 0 0 15.25-17.66zm-3.1 13.48c-.3.83-1.75 1.61-2.45 1.72-.63.1-1.42.14-4.05-.85a13.61 13.61 0 0 1-3.52-2.6 13.5 13.5 0 0 1-2.58-3.53c-.99-2.63-.95-3.42-.85-4.05.10-.70.89-2.15 1.72-2.45.40-.15.76-.08 1.05.22l1.13 1.14c.27.27.36.67.23 1.02-.20.59-.43 1.12-.57 1.35-.13.22-.10.50.09.70l.69.69c.58.58 1.69 1.60 2.26 1.93.20.12.45.10.63-.05.41-.33.99-.78 1.45-1.14.30-.25.72-.23 1.00.05l1.14 1.13c.30.30.37.65.22 1.05z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="footer-texto">© 2025 Agustín Gomez · Todos los derechos reservados</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const botones = document.querySelectorAll('.tab-button');
+        const secciones = document.querySelectorAll('.tab-content');
+
+        botones.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // Activar botón seleccionado
+            botones.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            // Mostrar solo la sección correspondiente
+            secciones.forEach(sec => {
+            sec.style.display = (sec.id === btn.dataset.tab) ? 'flex' : 'none';
+            });
+        });
+        });
+    });
+  </script>
+</body>
+</html>
