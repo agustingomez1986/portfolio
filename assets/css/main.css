@@ -123,12 +123,23 @@ main {
   margin-bottom: 0.7em;
 }
 
-main .header-link {
-  display: block;
-  text-align: center;
+.links {
+  display: flex;
+  flex-direction: column;
   margin: auto;
-
+  
   @media (min-width: 768px) {
-    display: none;
+    margin: auto 0 auto auto;
   }
+}
+
+main .links .header-link{
+    display: flex;
+    justify-content: center;
+    width: 100;
+    margin: 5px 0;
+
+    @media (min-width: 768px) {
+        display: none;
+    }
 }
